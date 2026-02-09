@@ -4,7 +4,7 @@ title = "sebastian kindl"
 theme = "PaperMod"
 defaultContentLanguage = "en"
 enableRobotsTXT = true
-canonifyURLs = true
+canonifyURLs = false
 
 [pagination]
   pagerSize = 10
@@ -37,7 +37,7 @@ canonifyURLs = true
     imageWidth = 180
     imageHeight = 250
     buttons = [
-#      { name = "projects", url = "/projects/" },
+      { name = "projects", url = "/projects/" },
       { name = "thesis", url = "/thesis/" },
       { name = "curriculum Vitae", url = "/cv/" },
       { name = "contact", url = "/contact/" }
@@ -72,10 +72,10 @@ canonifyURLs = true
     name = "home"
     url = "/"
     weight = 1
-#  [[menu.main]]
-#    name = "projects"
-#    url = "/projects/"
-#    weight = 2
+  [[menu.main]]
+    name = "projects"
+    url = "/projects/"
+    weight = 2
   [[menu.main]]
     name = "thesis"
     url ="/thesis/"
