@@ -1,14 +1,35 @@
-# Hugo build output
+# --- Hugo build output ---
 /public/
 /resources/
 /resources/_gen/
 .hugo_build.lock
 hugo_stats.json
 
-# OS / Editor files
+# --- Hugo / tooling ---
+/.hugo_build.lock
+/.hugo_cache/
+/.hugo_cache/
+
+# --- OS / Editor ---
 .DS_Store
 Thumbs.db
+desktop.ini
+*.swp
+*.swo
+.vscode/
+.idea/
 
-# Installer / Binary files
+# --- Windows "Zone Identifier" ADS files (seen in your public/) ---
+*:Zone.Identifier
+
+# --- Random temp / dumps ---
+*.tmp
+*.log
+structure.txt
+
+# --- Node (if you ever add it) ---
+node_modules/
+
+# --- Installer / binaries ---
 *.deb
-*.zip
+*.exe

@@ -1,0 +1,16 @@
+.button-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 22px;
+    background: var(--primary); /* Nutzt die Hauptfarbe deines Themes */
+    color: var(--theme);       /* Textfarbe (kontrastreich) */
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: transform 0.2s, filter 0.2s;
+}
+
+.button-link:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.1);
+}

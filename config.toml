@@ -19,7 +19,7 @@ canonifyURLs = false
   defaultTheme = "dark"
   disableThemeToggle = false
   ShowReadingTime = true
-  ShowShareButtons = true
+  ShowShareButtons = false
   ShowCodeCopyButtons = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = false
@@ -31,7 +31,7 @@ canonifyURLs = false
   [params.profileMode]
     enabled = true
     title = "Sebastian Kindl"
-    subtitle = "Technical Physics graduate with a strong quantitative foundation in modeling, data analysis, and problem-solving. Experienced in machine learning and advanced analytics, with a proven ability to translate technical concepts into scalable, data-driven solutions for business, strategy, and decision-making."
+    subtitle = "Technical Physics graduate leveraging data, analytics and AI to turn complex problems into clear, business-relevant solutions for strategy, consulting, and growth driven teams."
     imageUrl = "/photo.png"        # optional
     imageTitle = "Sebastian"
     imageWidth = 180
@@ -39,7 +39,7 @@ canonifyURLs = false
     buttons = [
       { name = "projects", url = "/projects/" },
       { name = "thesis", url = "/thesis/" },
-      { name = "curriculum Vitae", url = "/cv/" },
+#      { name = "curriculum Vitae", url = "/cv/" },
       { name = "contact", url = "/contact/" }
     ]
 
@@ -80,10 +80,10 @@ canonifyURLs = false
     name = "thesis"
     url ="/thesis/"
     weight = 3
-  [[menu.main]]
-    name = "curriculum vitae"
-    url = "/cv/"
-    weight = 4
+#  [[menu.main]]
+#    name = "curriculum vitae"
+#    url = "/cv/"
+#    weight = 4
   [[menu.main]]
     name = "contact"
     url = "/contact/"
