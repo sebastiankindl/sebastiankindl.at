@@ -1,5 +1,5 @@
 ---
-title: "AI-Based Simulation Framwork for Scalable Defect Analysis in 2D Materials"
+title: "Machine Learning Force Fields for Defective WSe2"
 draft: false
 cover:
   alt: "WSe2 defect & MLFF"
@@ -7,18 +7,23 @@ cover:
 showBreadCrumbs: false
 ShowReadingTime: false
 hideMeta: true
+disableAnchoredHeadings: true
 ---
 
-### Bachelor's Thesis - Equivariant Graph Neural Networks applied to Defective WSe2
+### Equivariant Graph Neural Networks applied to Defective WSe2
 
 ---
 
 Designed and validated a scalable AI framework to accelerate first-principles simulations of defective quantum materials.
-Demonstrates how equivariant graph neural networks can replace expensive physics simulations while preserving physical fidelity.
+I demonstrates how equivariant graph neural networks can replace expensive DFT simulations while preserving physical fidelity.
 
 ---
 
-View the thesis as PDF [here](/files/thesis.pdf)
+<div style="text-align: center;">
+
+Download the thesis as PDF [here](/files/thesis.pdf)
+
+</div>
 
 ---
 
@@ -42,7 +47,7 @@ Single-photon emitters in two-dimensional semiconductors, such as tungsten disel
 
 <div style="position:relative; padding-top:130%;">
   <iframe
-    src="/files/thesis.pdf"
+    src="/files/thesis.pdf#zoom=90&navpanes=0&toolbar=0&scrollbar=0"
     style="position:absolute; top:0; left:0; width:100%; height:100%; border:none;">
   </iframe>
 </div>

@@ -8,7 +8,8 @@ ShowReadingTime: false
 ShowWordCount: false
 ShowToc: false
 showPostNavLinks: false
-weight: 2
+disableAnchoredHeadings: true
+weight: 3
 ---
 
 ---
