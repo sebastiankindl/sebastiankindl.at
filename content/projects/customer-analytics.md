@@ -22,7 +22,7 @@ weight: 2
 
 ---
 
-## What problem does this solve?
+## The Challenge
 Most e-commerce teams are reactive - they analyze last month and blast campaigns broadly.
 This project turns customer analytics into a **decision engine**:
 
@@ -32,7 +32,7 @@ This project turns customer analytics into a **decision engine**:
 
 ---
 
-## What I built (end-to-end)
+## The Solution
 **Pipeline**
 - Generates a realistic customer + transaction dataset (or uses provided CSVs)
 - Builds RFM + behavioral features (recency, frequency, monetary, AOV, tenure, inter-purchase time)
@@ -48,7 +48,7 @@ This project turns customer analytics into a **decision engine**:
 
 ---
 
-## Key results (what a recruiter should notice)
+## Key results
 - **Top-decile lift ~5x**: the top 10% predicted customers capture ~50% of future revenue (typical CLV “power law” pattern)
 - Strong explainability: business-readable drivers (monetary, AOV, frequency, recency, etc.)
 - Prescriptive layer: converts predictions into budget decisions (ROI, efficient frontier, risk)
